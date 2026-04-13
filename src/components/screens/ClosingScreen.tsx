@@ -6,11 +6,11 @@ export default function ClosingScreen() {
   const [phase, setPhase] = useState(0);
 
   useEffect(() => {
-    const t1 = setTimeout(() => setPhase(1), 200);
-    const t2 = setTimeout(() => setPhase(2), 800);
-    const t3 = setTimeout(() => setPhase(3), 1400);
-    const t4 = setTimeout(() => setPhase(4), 2000);
-    const t5 = setTimeout(() => setPhase(5), 2600);
+    const t1 = setTimeout(() => setPhase(1), 600);
+    const t2 = setTimeout(() => setPhase(2), 2400);
+    const t3 = setTimeout(() => setPhase(3), 4200);
+    const t4 = setTimeout(() => setPhase(4), 6400);
+    const t5 = setTimeout(() => setPhase(5), 8200);
     return () => [t1, t2, t3, t4, t5].forEach(clearTimeout);
   }, []);
 
