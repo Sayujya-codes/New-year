@@ -118,7 +118,7 @@ export default function ClosingScreen() {
               letterSpacing: "0.06em",
             }}
           >
-            Sayujya
+            Your own Sayujya
           </p>
         </div>
       </div>
